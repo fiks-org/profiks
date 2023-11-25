@@ -9,6 +9,7 @@
     devShell.x86_64-linux = pkgs.mkShell {
       buildInputs = with pkgs; [
         python3
+        python311Packages.requests
       ];
     };
   };
